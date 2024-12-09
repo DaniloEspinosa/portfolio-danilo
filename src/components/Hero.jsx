@@ -1,4 +1,4 @@
-import { ButtonOutline, ButtonPrimary } from "./Button";
+import { ButtonDownload, ButtonOutline } from "./Button";
 
 const Hero = () => {
   return (
@@ -24,15 +24,21 @@ const Hero = () => {
             </div>
           </div>
           <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
-            Developer of modern, scalable and intuitive websites.
+            Hi, I'm Danilo, a developer of modern, scalable and intuitive
+            websites.
           </h2>
           <div className="flex items-center gap-3">
-            <ButtonPrimary label="Download CV" icon="download" />
+            <ButtonDownload
+              label="Download CV"
+              icon="download"
+              href="/danilo-cv.pdf"
+            />
 
             <ButtonOutline
-              href="#about"
-              label="Scroll down"
-              icon="arrow_downward"
+              href="/danilo-cv.pdf"
+              label="View CV"
+              icon="visibility"
+              target="_blank"
             />
           </div>
         </div>
@@ -40,7 +46,7 @@ const Hero = () => {
         <div className="hidden lg:block">
           <figure
             className="w-full max-w-[480px] ml-auto
-          bg-gradient-to-t from-emerald-400 via-25% via-emerald-400/40 to-75% rounded-[60px]
+          bg-gradient-to-t from-zinc-50 via-45% via-zinc-400/40 to-95% rounded-[80px]
           overflow-hidden"
           >
             <img
