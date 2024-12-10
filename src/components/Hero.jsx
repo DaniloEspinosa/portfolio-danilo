@@ -4,9 +4,27 @@ const Hero = () => {
   return (
     <section id="home" className="pt-28 lg:pt-36">
       <div className="container items-center lg:grid lg:grid-cols-2 lg:gap-10">
-        <div>
-          <div className="flex items-center gap-3 ">
-            <figure className="img-box w-9 h-9 rounded-lg">
+
+
+        <div className="lg:hidden md:block">
+          <figure
+            className="w-full max-w-[350px] m-auto bg-zinc-100/75
+           rounded-[80px] mb-10
+          overflow-hidden border-4 border-emerald-600"
+          >
+            <img
+              src="/images/danilo-perfil.png"
+              width={656}
+              height={800}
+              alt="Danilo Espinosa"
+              className="w-full"
+            />
+          </figure>
+        </div>
+
+        <div className="text-center lg:text-left">
+          <div className="flex items-center  justify-center lg:justify-start gap-3 ">
+            <figure className="img-box w-10 h-10 rounded-lg">
               <img
                 src="/images/avatar-danilo.webp"
                 width={40}
@@ -23,11 +41,13 @@ const Hero = () => {
               Available for work
             </div>
           </div>
-          <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
+
+          <h2 className="headline-1  max-w-[15ch] mt-5 mb-8 lg:mb-10">
             Hi, I'm Danilo, a developer of modern, scalable and intuitive
             websites.
           </h2>
-          <div className="flex items-center gap-3">
+          
+          <div className="flex items-center justify-center lg:justify-start gap-3">
             <ButtonDownload
               label="Download CV"
               icon="download"
@@ -42,6 +62,8 @@ const Hero = () => {
             />
           </div>
         </div>
+
+        
 
         <div className="hidden lg:block">
           <figure
