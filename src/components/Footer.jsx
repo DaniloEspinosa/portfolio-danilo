@@ -57,7 +57,7 @@ const Footer = () => {
 
             <ButtonPrimary
             href="mailto:danilopespinosa@gmail.com"
-            label="Start project"
+            label="Email me!"
             icon="chevron_right"
             classes="reveal-up"
             />

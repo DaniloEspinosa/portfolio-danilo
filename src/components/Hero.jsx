@@ -45,12 +45,12 @@ const Hero = () => {
 
         <div className="hidden lg:block">
           <figure
-            className="w-full max-w-[480px] ml-auto
-          bg-gradient-to-t from-zinc-50 via-45% via-zinc-400/40 to-95% rounded-[80px]
-          overflow-hidden"
+            className="w-full max-w-[420px] ml-auto bg-zinc-100/75
+           rounded-[80px]
+          overflow-hidden border-4 border-emerald-600"
           >
             <img
-              src="/images/hero-banner.png"
+              src="/images/danilo-perfil.png"
               width={656}
               height={800}
               alt="Danilo Espinosa"
