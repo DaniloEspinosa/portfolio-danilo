@@ -7,9 +7,9 @@ const TextoAnimado = () => {
       
       <TypeAnimation
         sequence={[
-          // Same substring at the start will only be typed out once, initially
+          
           "Hi world...",
-          1000, // wait 1s before replacing "Mice" with "Hamsters"
+          1000,
           "Hi friends...",
           1000,
           "Hi everyone!",
