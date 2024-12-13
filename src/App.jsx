@@ -17,6 +17,7 @@ import Hero from "./components/Hero";
 import Review from "./components/Review";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
+import TextoAnimado from "./components/TextoAnimado";
 
 const App = () => {
 

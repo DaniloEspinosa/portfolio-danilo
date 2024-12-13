@@ -1,11 +1,10 @@
 import { ButtonDownload, ButtonOutline } from "./Button";
+import TextoAnimado from "./TextoAnimado";
 
 const Hero = () => {
   return (
     <section id="home" className="pt-28 lg:pt-36">
       <div className="container items-center lg:grid lg:grid-cols-2 lg:gap-10">
-
-
         <div className="lg:hidden md:block">
           <figure
             className="w-full max-w-[350px] m-auto bg-zinc-100/75
@@ -22,8 +21,8 @@ const Hero = () => {
           </figure>
         </div>
 
-        <div className="text-center lg:text-left">
-          <div className="flex items-center  justify-center lg:justify-start gap-3 ">
+        <div className="lg:text-left">
+          <div className="flex items-center  justify-center lg:justify-start gap-3 mb-10 ">
             <figure className="img-box w-10 h-10 rounded-lg">
               <img
                 src="/images/avatar-danilo.webp"
@@ -42,11 +41,15 @@ const Hero = () => {
             </div>
           </div>
 
-          <h2 className="headline-1  max-w-[15ch] mt-5 mb-8 lg:mb-10">
-            Hi, I'm Danilo, a developer of modern, scalable and intuitive
-            websites.
+
+            <TextoAnimado />
+
+
+          <h2 className="headline-1  max-w-[1ch] mt-5 mb-8 lg:mb-10">
+            I'm Danilo, a developer specializing in modern, scalable, and
+            intuitive websites.
           </h2>
-          
+
           <div className="flex items-center justify-center lg:justify-start gap-3">
             <ButtonDownload
               label="Download CV"
@@ -62,8 +65,6 @@ const Hero = () => {
             />
           </div>
         </div>
-
-        
 
         <div className="hidden lg:block">
           <figure

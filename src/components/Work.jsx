@@ -4,37 +4,37 @@ const works = [
   {
     imgSrc: "/images/project-2.jpg",
     title: "CreArt ONG app",
-    tags: ["MIGRATION", "SPA", "DESIGN"],
+    tags: ["/images/css3.svg","/images/javascript.svg", "/images/nodejs.svg", "/images/react.svg" ],
     projectLink: "https://web-creart-2.onrender.com/",
   },
   {
     imgSrc: "/images/project-3.jpg",
     title: "Musician app",
-    tags: ["Development", "API"],
+    tags: ["/images/html.svg", "/images/css3.svg","/images/bootstrap.svg"],
     projectLink: "https://chelosueldo.netlify.app/",
   },
   {
     imgSrc: "/images/project-4.jpg",
     title: "La botiga de cafè",
-    tags: ["Web-design", "Development"],
+    tags: ["/images/html.svg", "/images/css3.svg","/images/javascript.svg"],
     projectLink: "https://botigadecafe.netlify.app/",
   },
   {
     imgSrc: "/images/project-5.jpg",
     title: "eCommerce website",
-    tags: ["eCommerce", "Development"],
+    tags: ["/images/mongodb.svg", "/images/expressjs.svg","/images/react.svg","/images/nodejs.svg"],
     projectLink: "https://www.linkedin.com/in/danilo-espinosa-web/",
   },
   {
     imgSrc: "/images/project-1.jpg",
     title: "Renting moto-bike app",
-    tags: ["API", "MVC", "Development"],
+    tags: ["/images/mongodb.svg", "/images/expressjs.svg","/images/react.svg","/images/nodejs.svg"],
     projectLink: "https://practicas-cief-next.vercel.app/",
   },
   {
     imgSrc: "/images/project-6.jpg",
     title: "vCard Personal portfolio",
-    tags: ["Web-design", "Development"],
+    tags: ["/images/javascript.svg", "/images/react.svg","/images/tailwindcss.svg","/images/vite.svg"],
     projectLink: "https://www.linkedin.com/in/danilo-espinosa-web/",
   },
 ];
