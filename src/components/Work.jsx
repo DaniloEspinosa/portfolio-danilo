@@ -33,9 +33,9 @@ const works = [
   },
   {
     imgSrc: "/images/project-6.jpg",
-    title: "vCard Personal portfolio",
+    title: "Personal page",
     tags: ["/images/javascript.svg", "/images/react.svg","/images/tailwindcss.svg","/images/vite.svg"],
-    projectLink: "https://www.linkedin.com/in/danilo-espinosa-web/",
+    projectLink: "https://dra-michielan.netlify.app/",
   },
 ];
 
