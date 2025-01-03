@@ -35,7 +35,7 @@ const works = [
     imgSrc: "/images/project-6.jpg",
     title: "Personal page",
     tags: ["/images/javascript.svg", "/images/react.svg","/images/tailwindcss.svg","/images/vite.svg"],
-    projectLink: "https://dra-michielan.netlify.app/",
+    projectLink: "https://psicologa-michielan.netlify.app/",
   },
 ];
 
