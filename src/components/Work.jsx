@@ -2,40 +2,108 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
-    imgSrc: "/images/project-2.jpg",
-    title: "CreArt ONG app",
-    tags: ["/images/css3.svg","/images/javascript.svg", "/images/nodejs.svg", "/images/react.svg" ],
+    imgSrc: "/images/project-ualki-landing.jpg",
+    title: "Landing Page UALKI (MERN)",
+    tags: [
+      "/images/logo-next.js.svg",
+      "/images/logo-typescript.svg",
+      "/images/logo-expressjs.svg",
+      "/images/logo-react.svg",
+      "/images/logo-postgresql.svg",
+
+    ],
+    projectLink: "https://ualki.com/es",
+  },
+  {
+    imgSrc: "/images/project-ualki-blog.jpg",
+    title: "Blog UALKI",
+    tags: [
+      "/images/logo-wordpress.svg",
+      "/images/logo-php.svg",
+      "/images/logo-mysql.svg",
+      "/images/logo-javascript.svg",
+    ],
+    projectLink: "https://blog.ualki.com/",
+  },
+  {
+    imgSrc: "/images/project-chefgpt.jpg",
+    title: "ChefGPT web APP (MERN)",
+    tags: [
+      "/images/logo-react.svg",
+      "/images/logo-nodejs.svg",
+      "/images/logo-vite.svg",
+      "/images/logo-chatgpt.svg",
+      "/images/logo-qwen.svg",
+    ],
+    projectLink: "https://chef-gpt-v2.vercel.app/",
+  },
+  {
+    imgSrc: "/images/project-creart-ong.jpg",
+    title: "CreArt NGO website (MERN)",
+    tags: [
+      "/images/logo-typescript.svg",
+      "/images/logo-mysql.svg",
+      "/images/logo-expressjs.svg",
+      "/images/logo-react.svg",
+      "/images/logo-nodejs.svg",
+    ],
     projectLink: "https://web-creart-2.onrender.com/",
   },
   {
-    imgSrc: "/images/project-3.jpg",
-    title: "Musician app",
-    tags: ["/images/html.svg", "/images/css3.svg","/images/bootstrap.svg"],
-    projectLink: "https://chelosueldo.netlify.app/",
-  },
-  {
-    imgSrc: "/images/project-4.jpg",
-    title: "La botiga de cafè",
-    tags: ["/images/html.svg", "/images/css3.svg","/images/javascript.svg"],
-    projectLink: "https://botigadecafe.netlify.app/",
-  },
-  {
-    imgSrc: "/images/project-5.jpg",
-    title: "eCommerce website",
-    tags: ["/images/mongodb.svg", "/images/expressjs.svg","/images/react.svg","/images/nodejs.svg"],
-    projectLink: "https://www.linkedin.com/in/danilo-espinosa-web/",
-  },
-  {
-    imgSrc: "/images/project-1.jpg",
+    imgSrc: "/images/project-moto2go.jpg",
     title: "Renting moto-bike app",
-    tags: ["/images/mongodb.svg", "/images/expressjs.svg","/images/react.svg","/images/nodejs.svg"],
+    tags: [
+      "/images/logo-typescript.svg",
+      "/images/logo-react.svg",
+      "/images/logo-expressjs.svg",
+      "/images/logo-nodejs.svg",
+    ],
     projectLink: "https://practicas-cief-next.vercel.app/",
   },
   {
-    imgSrc: "/images/project-6.jpg",
+    imgSrc: "/images/project-botiga.jpg",
+    title: "La botiga de cafè",
+    tags: [
+      "/images/logo-html.svg",
+      "/images/logo-css3.svg",
+      "/images/logo-javascript.svg",
+      "/images/logo-figma.svg",
+
+    ],
+    projectLink: "https://botigadecafe.netlify.app/",
+  },
+  {
+    imgSrc: "/images/project-martina.jpg",
     title: "Personal page",
-    tags: ["/images/javascript.svg", "/images/react.svg","/images/tailwindcss.svg","/images/vite.svg"],
+    tags: [
+      "/images/logo-figma.svg",
+      "/images/logo-react.svg",
+      "/images/logo-tailwindcss.svg",
+      "/images/logo-vite.svg",
+    ],
     projectLink: "https://psicologa-michielan.netlify.app/",
+  },
+  {
+    imgSrc: "/images/project-chelo.jpg",
+    title: "Musician page",
+    tags: [
+      "/images/logo-html.svg",
+      "/images/logo-css3.svg",
+      "/images/logo-bootstrap.svg",
+      "/images/logo-javascript.svg",
+    ],
+    projectLink: "https://chelosueldo.netlify.app/",
+  },
+  {
+    imgSrc: "/images/project-marketplace.jpg",
+    title: "Marketplace (MERN)",
+    tags: [
+      "/images/logo-mongodb.svg",
+      "/images/logo-expressjs.svg",
+      "/images/logo-react.svg",
+      "/images/logo-nodejs.svg",
+    ],
+    projectLink: "https://www.linkedin.com/in/danilo-espinosa-web/",
   },
 ];
 

@@ -12,7 +12,7 @@ const Hero = () => {
           overflow-hidden border-4 border-emerald-600"
           >
             <img
-              src="/images/danilo-perfil.png"
+              src="/images/hero-img.jpg"
               width={656}
               height={800}
               alt="Danilo Espinosa"
@@ -41,25 +41,23 @@ const Hero = () => {
             </div>
           </div>
 
-
-            <TextoAnimado />
-
+          <TextoAnimado />
 
           <h2 className="headline-1  max-w-[1ch] mt-5 mb-8 lg:mb-10">
-            I'm Danilo, a developer specializing in modern, scalable, and
+            I&apos; m Danilo, a developer specializing in modern, scalable, and
             intuitive websites.
           </h2>
 
           <div className="flex items-center justify-center lg:justify-start gap-3">
             <ButtonDownload
-              label="Download CV"
+              label="Download CV (EN)"
               icon="download"
-              href="/danilo-cv.pdf"
+              href="/CV_DaniloEN.pdf"
             />
 
             <ButtonOutline
-              href="/danilo-cv.pdf"
-              label="View CV"
+              href="/CV_DaniloES.pdf"
+              label="View CV (ES)"
               icon="visibility"
               target="_blank"
             />
@@ -68,12 +66,12 @@ const Hero = () => {
 
         <div className="hidden lg:block">
           <figure
-            className="w-full max-w-[420px] ml-auto bg-zinc-100/75
+            className="w-full max-w-[420px] ml-auto bg-zinc-500/75
            rounded-[80px]
           overflow-hidden border-4 border-emerald-600"
           >
             <img
-              src="/images/danilo-perfil.png"
+              src="/images/hero-img.jpg"
               width={656}
               height={800}
               alt="Danilo Espinosa"

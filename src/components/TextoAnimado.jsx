@@ -1,13 +1,10 @@
-import React from "react";
 import { TypeAnimation } from "react-type-animation";
 
 const TextoAnimado = () => {
   return (
     <div className="headline-1  max-w-[1ch] mt-5">
-      
       <TypeAnimation
         sequence={[
-          
           "Hi world...",
           1000,
           "Hi friends...",
@@ -17,7 +14,7 @@ const TextoAnimado = () => {
         ]}
         wrapper="span"
         speed={30}
-        style={{  display: "inline-block" }}
+        style={{ display: "inline-block" }}
         repeat={Infinity}
       />
     </div>

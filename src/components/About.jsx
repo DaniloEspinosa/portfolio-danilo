@@ -1,15 +1,19 @@
 const aboutItems = [
   {
     label: "Project done",
-    number: 6,
+    number: 10,
+    symbol: "+",
+  },
+
+  {
+    label: "Motivation",
+    number: 100,
+    symbol: "%",
   },
   {
     label: "Years of experience",
     number: 3,
-  },
-  {
-    label: "Motivation",
-    number: 10,
+    symbol: "+",
   },
 ];
 
@@ -25,14 +29,14 @@ const About = () => {
             crafting intuitive and visually appealing web experiences.
           </p>
           <div className="flex flex-wrap items-center gap-4 md:gap-7">
-            {aboutItems.map(({ label, number }, key) => (
+            {aboutItems.map(({ label, number, symbol }, key) => (
               <div key={key}>
                 <div className="flex items-center md:mb-2">
                   <span className="text-2xl font-semibold md:text-4xl">
                     {number}
                   </span>
                   <span className="text-emerald-400 font-semibold md:text-3xl">
-                    +
+                    {symbol}
                   </span>
                 </div>
                 <p className="text-sm text-zinc-400">{label}</p>
