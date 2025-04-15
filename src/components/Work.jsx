@@ -35,7 +35,7 @@ const works = [
       "/images/logo-chatgpt.svg",
       "/images/logo-qwen.svg",
     ],
-    projectLink: "https://chef-gpt-v2.vercel.app/",
+    projectLink: "https://chefgpt.tech/",
   },
   {
     imgSrc: "/images/project-creart-ong.jpg",
